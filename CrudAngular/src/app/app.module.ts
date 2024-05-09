@@ -13,6 +13,9 @@ import {HttpClientModule} from "@angular/common/http";
 import { AddAppartComponent } from './add-appart/add-appart.component';
 import { UpdateAppartementComponent } from './update-appartement/update-appartement.component';
 import { ShowAppartComponent } from './show-appart/show-appart.component';
+import {ShowroomComponent} from "./showroom/showroom.component";
+import { AddShowroomComponent } from './add-showroom/add-showroom.component';
+import { ShowShowroomComponent } from './show-showroom/show-showroom.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ShowAppartComponent } from './show-appart/show-appart.component';
     AppartementComponent,
     AddAppartComponent,
     UpdateAppartementComponent,
-    ShowAppartComponent
+    ShowAppartComponent,
+    ShowroomComponent,
+    AddShowroomComponent,
+    ShowShowroomComponent
   ],
   imports: [
     BrowserModule,
